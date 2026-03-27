@@ -22,7 +22,7 @@
                 url: `https://pokeapi.co/api/v2/pokemon/${pokemonId}/`,
                 dataType: 'json',
                 success: function(data) {
-                    // ポケモンの名前
+                    // ポケモンの名前を日本語化
                     $.ajax({
                         url:data.species.url,
                         dataType: 'json',
@@ -33,7 +33,7 @@
                     })
                     // ポケモンの画像
                     $('#pokemonImage').attr('src', data.sprites.front_default);
-                    // ポケモンの種類
+                    // ポケモンの種類を日本語化
                     const typesPromises = data.types.map(type => $.ajax({
                         url: type.type.url,
                         dataType: 'json'
