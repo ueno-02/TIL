@@ -1,1 +1,19 @@
+ポケモンajax
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>Random Pokemon Information</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <h1>ランダムなポケモンの情報</h1>
+    <button id="fetchButton">ポケモンを取得</button>
+    <script>
+        $('#fetchButton').click(function() {
+            console.log('ボタンをクリックしました');
+        });
+    </script>
+</body>
+</html>
 
