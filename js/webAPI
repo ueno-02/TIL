@@ -7,13 +7,22 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 <body>
-    <h1>ランダムなポケモンの情報</h1>
-    <button id="fetchButton">ポケモンを取得</button>
-    <script>
-        $('#fetchButton').click(function() {
-            console.log('ボタンをクリックしました');
+<h1>ランダムなポケモンの情報</h1>
+<button id="fetchButton">ポケモンを取得</button>
+<script>
+    $('#fetchButton').click(function() {
+        const pokemonId = 1;
+        $.ajax({
+            url: `https://pokeapi.co/api/v2/pokemon/${pokemonId}/`,
+            dataType: 'json',
+            success: function(data) {
+                console.log(data);
+            },
+            error: function() {
+                console.error('エラーが発生しました');
+            }
         });
-    </script>
+    });
+</script>
 </body>
 </html>
-
