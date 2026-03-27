@@ -2,9 +2,9 @@
 
 # My TIL (Today I Learned)
 
-今日学んだことを記録していく場所です。
+今日学んだことを記録✏️
 
 ## カテゴリ別ログ
 
 ### Git
-* 
+*[GITの使い方をAIとともに学習](./git/how-to-commit.md)
