@@ -39,6 +39,7 @@
                         dataType: 'json'
                     }));
 
+                    // promiseメソッド
                     Promise.all(typesPromises).then(typeDataObj => {
                         const typesCsv = typeDataObj.map(typeData => {
                             const typeName = typeData.names.find(name => name.language.name === 'ja');
