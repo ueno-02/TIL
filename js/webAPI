@@ -1,28 +1,43 @@
-ポケモンajax
 <!DOCTYPE html>
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
     <title>Random Pokemon Information</title>
+    <!-- Google ajax -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 <body>
-<h1>ランダムなポケモンの情報</h1>
-<button id="fetchButton">ポケモンを取得</button>
+    <h1>ランダムなポケモンの情報</h1>
+    <button id="fetchButton">ポケモンを取得</button>
+    <div id="pokemonInfo">
+        <h2 id="pokemonName"></h2>
+        <img id="pokemonImage" src="https://pokeapi.co/static/pokeapi_256.3fa72200.png" alt="ポケモンの画像" width="200">
+        <p id="pokemonTypes"></p>
+        <p id="pokemonWeight"></p>
+    </div>
 <script>
-    $('#fetchButton').click(function() {
-        const pokemonId = 1;
-        $.ajax({
-            url: `https://pokeapi.co/api/v2/pokemon/${pokemonId}/`,
-            dataType: 'json',
-            success: function(data) {
-                console.log(data);
-            },
+$('#fetchButton').click(function() {
+    const pokemonId = 1;
+    $.ajax({
+        url: `https://pokeapi.co/api/v2/pokemon/${pokemonId}/`,
+        dataType: 'json',
+        success: function(data) {
+            console.log(data);
+            // ポケモンの名前
+            $('#pokemonName').text(data.name);
+            // ポケモンの画像
+            $('#pokemonImage').attr('src', data.sprites.front_default);
+            // ポケモンの種類
+            const types = data.types.map(type => type.type.name).join(', ');
+            $('#pokemonTypes').text(`タイプ: ${types}`);
+            // ポケモンの重さ
+            $('#pokemonWeight').text(`重さ: ${data.weight / 10} kg`);
+        },
             error: function() {
-                console.error('エラーが発生しました');
-            }
-        });
+            console.error('エラーが発生しました');
+        }
     });
+});
 </script>
 </body>
 </html>
