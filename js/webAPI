@@ -16,28 +16,45 @@
         <p id="pokemonWeight"></p>
     </div>
 <script>
-$('#fetchButton').click(function() {
-    const pokemonId = 1;
-    $.ajax({
-        url: `https://pokeapi.co/api/v2/pokemon/${pokemonId}/`,
-        dataType: 'json',
-        success: function(data) {
-            console.log(data);
-            // ポケモンの名前
-            $('#pokemonName').text(data.name);
-            // ポケモンの画像
-            $('#pokemonImage').attr('src', data.sprites.front_default);
-            // ポケモンの種類
-            const types = data.types.map(type => type.type.name).join(', ');
-            $('#pokemonTypes').text(`タイプ: ${types}`);
-            // ポケモンの重さ
-            $('#pokemonWeight').text(`重さ: ${data.weight / 10} kg`);
-        },
-            error: function() {
-            console.error('エラーが発生しました');
-        }
-    });
-});
-</script>
+        $('#fetchButton').click(function() {
+            const pokemonId = Math.floor(Math.random() * 898) + 1;
+            $.ajax({
+                url: `https://pokeapi.co/api/v2/pokemon/${pokemonId}/`,
+                dataType: 'json',
+                success: function(data) {
+                    // ポケモンの名前
+                    $.ajax({
+                        url:data.species.url,
+                        dataType: 'json',
+                        success: function(nameData){
+                            const pokemonName = nameData.names.find(name => name.language.name === 'ja').name
+                            $('#pokemonName').text(pokemonName);
+                        }
+                    })
+                    // ポケモンの画像
+                    $('#pokemonImage').attr('src', data.sprites.front_default);
+                    // ポケモンの種類
+                    const typesPromises = data.types.map(type => $.ajax({
+                        url: type.type.url,
+                        dataType: 'json'
+                    }));
+
+                    Promise.all(typesPromises).then(typeDataObj => {
+                        const typesCsv = typeDataObj.map(typeData => {
+                            const typeName = typeData.names.find(name => name.language.name === 'ja');
+                            return typeName ? typeName.name : '不明';
+                        }).join(', ');
+                        $('#pokemonTypes').text(`タイプ: ${typesCsv}`);
+                    });
+                    // ポケモンの重さ
+                    $('#pokemonWeight').text(`重さ: ${data.weight / 10} kg`);
+                },
+                error: function() {
+                    console.error('エラーが発生しました');
+                }
+            });
+        });
+
+    </script>
 </body>
 </html>
