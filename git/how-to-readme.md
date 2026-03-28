@@ -2,6 +2,8 @@
 
 ### 実際に私がつまづいた部分をまとめながらREADMEの作り方についてまとめていく📒
 初心者だからこそわからない最初の疑問を一緒に解決していきましょう！
+<br>
+<br>
 
 ## まずREADMEとは何を書く場所なのか
  
@@ -26,54 +28,60 @@
  <br>
  
 もちろん私はそんなことを知らないので最初の段階はこうなっていました、、、  
-<img width="621" height="352" alt="Image" src="https://github.com/user-attachments/assets/4afc1de6-a3fe-4b56-9b1e-cc45ece74d54" />    
+
+<img width="621" height="352" alt="Image" src="https://github.com/user-attachments/assets/4afc1de6-a3fe-4b56-9b1e-cc45ece74d54" />  <br>
 リンクなんか貼ってないし、簡単な説明も、フォルダを追記することもしていませんでした😿  
 これでは、なにをしているのかもわからないし途中で放置しているように見えてしまいます。  
 <br>
+<br>
 
  ## 改善しようとしたけれどどう書けばいいかわからない🤔
+ <br>
  
  ### まずは基本の書き方から
  放置しているように見えるREADMEを改善しようとしましたが、まずどう書けばいいかわからない、、、  
  そんなときにこんなサイトを見つけました！  
  このサイトを見れば今まで疑問だった見出しの書き方やリンクなどをかけるようになります。参考にしてみてください。  
  [【GitHub】README -マークダウン記法-](https://zenn.dev/n_haru2/articles/8443eea376ff53)  
+<br>
 
  ### 文章をまとめる時には.mdを 
  また、これから文章をまとめたファイルをつくることもあると思います。  
  文章をまとめたいファイルは末尾に **.md** と記述してください。文章だけを書くには.mdのつくファイルが必要です。  
  私は、そんなことも知らずにずっとコードを書くファイルに文章をまとめていました😅 
+<br>
 
  ### 勉強ログの残し方
  この方も毎日の勉強ログの残し方についてもわかりやすく教えてくださっています！  
- [GitHubで草🌱を生やそう！！！『毎日のTILを記録する方法』](https://qiita.com/shisshi_engineer/items/2edda14c742bfa9a8163)  
+ [GitHubで草🌱を生やそう！！！『毎日のTILを記録する方法』](https://qiita.com/shisshi_engineer/items/2edda14c742bfa9a8163)    
  すごくわかりやすいのですが、初心者は手書きでしか階層構造を書けないのでどうしてもきれいな階層ができませんでした💦  
  なので、私はリスト化して毎日の勉強記録を残していくことにしました。こっちのほうが初心者は管理しやすいです。  
+<br>
 
  ### そもそも草ってどうやって見るの❓  
  草を生やすってあるけどどこでみるんだろう、、、と疑問だったのですが当たり前のことすぎてあまり草の見方については載っていません😿  
  そこでここで記録しておきます。   
  草（コントリビューション・グラフ）は、GitHubの自分のプロフィールページで確認できます！  
- <br>
  
- <img width="548" height="159" alt="image" src="https://github.com/user-attachments/assets/5f355330-215b-4e01-9505-05b7f40e3b9e" />  
+ <img width="548" height="159" alt="image" src="https://github.com/user-attachments/assets/5f355330-215b-4e01-9505-05b7f40e3b9e" />    
  
  まずは右上の自分のアイコンをクリック！   
- 
+ <br>
  <img width="255" height="487" alt="image" src="https://github.com/user-attachments/assets/2fdc18bc-14c9-4260-b5cf-3d34c0d19e85" />  
  
  アイコンをクリックするとメニューが表示されます。その中のprofileをクリックして、ページを少しスクロールすると草が見れます。  
- 
+ <br>
  <img width="754" height="162" alt="image" src="https://github.com/user-attachments/assets/34ce1153-3269-494c-bc78-f7aefcf71c7e" />  
  
  まだまだはじめたてなので草は少ししか生えていないですが、このように草が生えていることを確認できます。
-
+<br>
 
  ### 画像挿入もできちゃう
  そして！！私がすごく感動したのが画像をREADMEに挿入できるということです！  
  さびしい印象だったファイルも一気にオリジナリティのあるページに仕上がります✨  
  [GitHubでREADME.mdに手軽に画像を使用したい](https://qiita.com/lowg6/items/06dd096e7ed1acce4b1e)  
  私はこの方の手順を参考にしながら画像を挿入しました。この機能が一番自分だけのページを作っているようでお気に入りです。  
+<br>
 
  ### Sheild
  **Sheildとは**  
@@ -82,14 +90,15 @@
  このサイトにSheildについてまとめてあります✨  
  [全プロジェクトで重宝されるイケてるREADMEを作成しよう！](https://qiita.com/shun198/items/c983c713452c041ef787)  
  初めて実装した時には自分の学んだ言語をこんなにわかりやすくできるのだと感動しました。  
+<br>
 
  ### 実際にこれらを活かして改善してみると…  
- <img width="530" height="884" alt="image" src="https://github.com/user-attachments/assets/5fb28af4-dad6-4af5-bc88-4984d480a19b" />  
+ <img width="530" height="884" alt="image" src="https://github.com/user-attachments/assets/5fb28af4-dad6-4af5-bc88-4984d480a19b" />  <br>
  すごくわかりやすくなった！特に自分の学んだ言語がバッジのように増えていくのが勉強の証を可視化したようですごくうれしかったです📛  
  これだけで最初とくらべるとすごい成長を感じます👏
 
- 
-<br>
+ <br>
+ <br>
 
 ## まとめ  
 READMEを書く時のポイントや初心者が疑問に思った点をまとめてみました。実際に初心者である私がつまづいたところをまとめたのでわかりやすいまとめになっているとうれしいです。  
