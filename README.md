@@ -1,10 +1,10 @@
-がんばって勉強中⌨️
-
 # My TIL (Today I Learned)
 
-今日学んだことを記録✏️
+がんばって勉強中⌨️
+![Image](https://github.com/user-attachments/assets/48846ad3-e94c-4cf0-9825-3d0eaf09a296)
 
 ## カテゴリ別ログ
+今日学んだことを記録✏️
 
 ### Git
 *[GITの使い方をAIとともに学習](./git/how-to-commit.md)
