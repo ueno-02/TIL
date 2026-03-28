@@ -3,6 +3,24 @@
 ### がんばって勉強中⌨️
 ![Image](https://github.com/user-attachments/assets/48846ad3-e94c-4cf0-9825-3d0eaf09a296)
 
+### 📒使用言語
+<img src="https://img.shields.io/badge/PHP-ccc.svg?logo=php&style=flat">
+<img src="https://img.shields.io/badge/Javascript-276DC3.svg?logo=javascript&style=flat">
+<img src="https://img.shields.io/badge/-HTML5-333.svg?logo=html5&style=flat">
+
+### ⚙️OS
+<img src="https://img.shields.io/badge/-Windows-0078D6.svg?logo=windows&style=flat">
+
+### 🥪ミドルウェア
+<img src="https://img.shields.io/badge/-Apache-D22128.svg?logo=apache&style=flat">
+
+### 📝エディタ
+<img src="https://img.shields.io/badge/-Visual%20Studio%20Code-007ACC.svg?logo=visual-studio-code&style=flat">
+
+### ☁️クラウド
+<img src="https://img.shields.io/badge/-GitHub-181717.svg?logo=github&style=flat">
+
+
 ## カテゴリ別ログ
 
 ### Git
