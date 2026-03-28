@@ -26,7 +26,8 @@
 ## カテゴリ別ログ
 
 ### Git
-[GITの使い方をAIとともに学習](./git/how-to-commit.md)
+[GITの使い方をAIとともに学習](./git/how-to-commit.md)  
+[READMEの書き方まとめ](./git/how-to-readme.md)
 
 ### JS
 [JS学習](./js)
