@@ -4,9 +4,7 @@
 ![Image](https://github.com/user-attachments/assets/48846ad3-e94c-4cf0-9825-3d0eaf09a296)
 
 ### 📒使用言語
-<img src="https://img.shields.io/badge/PHP-ccc.svg?logo=php&style=flat">
-<img src="https://img.shields.io/badge/Javascript-276DC3.svg?logo=javascript&style=flat">
-<img src="https://img.shields.io/badge/-HTML5-333.svg?logo=html5&style=flat">
+<img src="https://img.shields.io/badge/PHP-ccc.svg?logo=php&style=flat"><img src="https://img.shields.io/badge/Javascript-276DC3.svg?logo=javascript&style=flat"><img src="https://img.shields.io/badge/-HTML5-333.svg?logo=html5&style=flat">
 
 ### ⚙️OS
 <img src="https://img.shields.io/badge/-Windows-0078D6.svg?logo=windows&style=flat">
@@ -24,4 +22,17 @@
 ## カテゴリ別ログ
 
 ### Git
-*[GITの使い方をAIとともに学習](./git/how-to-commit.md)
+[GITの使い方をAIとともに学習](./git/how-to-commit.md)
+
+### JS
+[JS学習](./js)
+
+### 勉強ログ  
+
+日々の勉強を記録✏️  
+├── [2026.03](./2026.03)<br>
+│   ├── [03.27](./2026.03.27)<br>
+│   ├── [03.28](./2026.03.28)<br>
+│   └── [03.29](./2026.03.29)<br>
+└── [2026.04](./2026.04)<br>
+      
