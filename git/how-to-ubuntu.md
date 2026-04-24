@@ -13,5 +13,16 @@
 ### 仮想化を作成するには
 仮想化を作成にするにはまず、仮想化ソフトウェアを用意する必要があります。  
 私はvirtualboxを用意しました。選んだ理由としては、無料で使用できることや調べてみて初心者にも扱いやすいとおすすめされたのでこちらを選びました。実際に使ってみても初心者にも扱いやすく、初心者はvirtualboxで全然大丈夫だと思います。
-https://www.oracle.com/jp/virtualization/technologies/vm/downloads/virtualbox-downloads.html
-こちらからvirtualboxをダウンロードできます。
+https://www.oracle.com/jp/virtualization/technologies/vm/downloads/virtualbox-downloads.html  
+こちらからvirtualboxをダウンロードできます。  
+
+
+## ubuntu日本語パッケージを入れる
+ubuntuは後からでも日本語化できますが、私は最初から日本語対応されている日本語パッケージをダウンロードしました。  
+https://ftp.jaist.ac.jp/pub/Linux/ubuntu-jp-cdimage/releases/jammy/  
+ここから日本語版をダウンロードします.
+<img width="815" height="32" alt="image" src="https://github.com/user-attachments/assets/00801fe0-7566-4a6c-8419-7fdd1a947853" />  
+上から3番目のこちらのふぁいるをダウンロードしてください。
+
+
+
