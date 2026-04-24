@@ -24,5 +24,23 @@ https://ftp.jaist.ac.jp/pub/Linux/ubuntu-jp-cdimage/releases/jammy/
 <img width="1404" height="485" alt="image" src="https://github.com/user-attachments/assets/d24ce63f-8a67-4734-ad32-d08f68bcd3b4" />
 上から3番目のこちらのファイルをダウンロードしてください。
 
+ ### virtualboxでubuntuを入れる
+ まず初めに、新規作成でフォルダを作ります。フォルダ名は何でも構いませんが私は「vm」にしました。  
+ また、このフォルダに仮想環境を保管していくため、「vm」のフォルダの中に[ubunutu]を作りました。
+ <img width="1091" height="737" alt="image" src="https://github.com/user-attachments/assets/88e1e12b-6b05-4e22-bd16-f8bd1628f2dd" />  
+   
+ こんな感じです。  
+ 違う環境を入れる場合には新しくフォルダを作ってわかりやすく補完できるようにしてください。  
+   
+ フォルダが完成したら、virtualboxを開きます。
+ <img width="1103" height="715" alt="image" src="https://github.com/user-attachments/assets/588ca698-c41a-466f-909d-7ab4eab8a25c" />  
+ 新規をクリック！  
+   
+ <img width="1142" height="856" alt="image" src="https://github.com/user-attachments/assets/d6692549-1e29-4c5b-b499-7afd643f43c8" />  
+
+　新規をクリックしたら名前は任意のものを付けます。わかりやすい名前がいいです。  
+ 
+
+
 
 
