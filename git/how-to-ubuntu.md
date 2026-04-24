@@ -21,8 +21,8 @@ https://www.oracle.com/jp/virtualization/technologies/vm/downloads/virtualbox-do
 ubuntuは後からでも日本語化できますが、私は最初から日本語対応されている日本語パッケージをダウンロードしました。  
 https://ftp.jaist.ac.jp/pub/Linux/ubuntu-jp-cdimage/releases/jammy/  
 ここから日本語版をダウンロードします.
-<img width="815" height="32" alt="image" src="https://github.com/user-attachments/assets/00801fe0-7566-4a6c-8419-7fdd1a947853" />  
-上から3番目のこちらのふぁいるをダウンロードしてください。
+<img width="1404" height="485" alt="image" src="https://github.com/user-attachments/assets/d24ce63f-8a67-4734-ad32-d08f68bcd3b4" />
+上から3番目のこちらのファイルをダウンロードしてください。
 
 
 
